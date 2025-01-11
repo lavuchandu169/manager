@@ -1,0 +1,65 @@
+/* General Styles for Register Page */
+.register-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-container .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .register-container .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  .register-container .btn-primary {
+    background-color: #28a745;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .register-container .btn-primary:hover {
+    background-color: #218838;
+    transform: scale(1.03);
+  }
+  
+  .register-container p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .register-container p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-container p a:hover {
+    text-decoration: underline;
+  }

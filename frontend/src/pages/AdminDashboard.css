@@ -1,0 +1,144 @@
+/* General Styles for Admin Dashboard */
+.admin-dashboard {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.admin-dashboard-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.admin-dashboard-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.admin-dashboard-header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Table Styles */
+.admin-dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard-table th,
+.admin-dashboard-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-dashboard-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.admin-dashboard-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.admin-dashboard-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Action Buttons */
+.admin-dashboard-table .btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-dashboard-table .btn-primary {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.admin-dashboard-table .btn-primary:hover {
+  background-color: #218838;
+  transform: scale(1.03);
+}
+
+.admin-dashboard-table .btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.admin-dashboard-table .btn-danger:hover {
+  background-color: #c82333;
+  transform: scale(1.03);
+}
+
+.admin-dashboard-table .btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.admin-dashboard-table .btn-secondary:hover {
+  background-color: #5a6268;
+  transform: scale(1.03);
+}
+
+/* Filter and Search Section */
+.admin-dashboard-filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard-filters .search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.admin-dashboard-filters .search-bar input {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.admin-dashboard-filters .search-bar input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.admin-dashboard-filters .btn-filter {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-dashboard-filters .btn-filter:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section */
+.admin-dashboard-footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #666;
+}
